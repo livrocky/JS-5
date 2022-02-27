@@ -27,7 +27,7 @@
 
 //3//
 
-// function count(vardas, pavardve) {
+// function count(name, lname) {
 //   let name = length;
 //   let lname = length;
 //   console.log(name + lname);
