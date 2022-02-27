@@ -1,6 +1,6 @@
 //1//
 
-// //function declaration//
+//function declaration//
 
 // function myname() {
 //   alert("Rokas");
@@ -28,14 +28,11 @@
 //3//
 
 // function count(name, lname) {
-//   let name = length;
-//   let lname = length;
-//   console.log(name + lname);
+//   const wcount = name + lname;
+//   console.log(`${name}, ${lname} ===> ${wcount.length} letters`);
 // }
 
-// count(name, lname);
-
-// console.log(countLetters("Rokas Ruzeicius"));
+// count("rokas", "ruzevicius");
 
 //4//
 
@@ -46,6 +43,36 @@
 //   console.log(letter);
 // }
 
-// abc(0);
+// abc(5);
 
 //5//
+
+// function mathOperation(n1, n2) {
+//   const operation = n1 + n2;
+//   const n2 = operation - n1;
+// }
+// console.log(`dfdfgsd ${operation}`);
+// mathOperation(1, 2);
+
+// function mathOperation(n1, n2) {
+//   const sum = n1 + n2;
+//   console.log(`${n1}, ${n2}, "sum" ===> ${sum}`);
+// }
+// mathOperation(20, 2);
+
+//6//
+
+function randomNumber(min, max) {
+  let random = Math.random(1, 10);
+  random = random * max;
+  random = random + min;
+  random = Math.floor(random);
+  return random;
+}
+
+console.log(randomNumber(1, 10));
+
+function squareNum() {
+  randomNumber ** 2;
+}
+squareNum();
